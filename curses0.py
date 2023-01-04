@@ -18,3 +18,4 @@ titre =['  _______     _________ _    _  ____  _   _    _____ _   _          _  
 
 
 affichage_titre(titre)
+def affichage_aire_de_jeu(hauteur, largeur, )
