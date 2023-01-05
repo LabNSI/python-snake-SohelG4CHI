@@ -121,22 +121,22 @@ def deplacement(win, score, key, snake, food):
 	# Si on appui sur la flèche "à droite",
 	# la tête se déplace de 1 caractère vers la droite (colonne + 1)
 	if key == KEY_RIGHT:
-		snake.insert(0, ________, ________)
+		snake.insert(0, 4, 11)
 
 	# Sinon si on appui sur la flèche "à gauche",
 	# la tête se déplace de 1 caractère vers la gauche (colonne - 1)
 	elif key == KEY_LEFT:
-		snake.insert(0, ________, ________)
+		snake.insert(0, 4, 9)
 
 	# Sinon si on appui sur la flèche "en haut",
 	# la tête se déplace de 1 caractère vers le haut (ligne - 1)
 	elif key == KEY_UP:
-		snake.insert(0, ________, ________)
+		snake.insert(0, 3, 10)
 
 	# Sinon si on appui sur la flèche "en bas",
 	# la tête se déplace de 1 caractère vers le bas (ligne + 1)
 	elif key == KEY_DOWN:
-		snake.insert(0, ________, ________)
+		snake.insert(0, 5, 10)
 
 	# si la serpent arrive au bord de la fenêtre (20 lignes x 60 colonnes)
 	if snake[0][0] == __:
