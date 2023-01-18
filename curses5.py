@@ -238,13 +238,13 @@ def perdu(win, snake):
 	'''
 
 	# initialisation de la variable end à retourner
-	end = ______
+	end = False
 
 	# Si la tête du serpent est dans le corps
 	if ______ in _____ :
 
 		# Afiicher "GAME OVER !" en blanc sur fond rouge au milieu de la fenêtre
-		curses.init_pair(4, curses.______, curses.______)
+		curses.init_pair(4, curses.COLOR_WHITE, curses.COLOR_RED)
 		win.addstr(________, ________, ________)
 		win.refresh()
 
